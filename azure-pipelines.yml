@@ -47,5 +47,5 @@ steps:
     buildConfiguration: 'Release'
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop to artifacts'
+  displayName: 'Publish Artifact: drop'
   condition: succeeded()
